@@ -179,6 +179,76 @@
             </div>
         </section>
 
+        <section id="contacto" class="py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="p-4 border rounded bg-white">
+                            <h2 class="text-center mb-3">Contáctanos</h2>
+
+                            <form id="formularioContacto" novalidate>
+                                <div class="row g-3">
+                                    <div class="col-md-5">
+                                        <label for="nombres" class="form-label">Nombres</label>
+                                        <input id="nombres" name="nombres" type="text" class="form-control" required>
+                                    </div>
+
+                                    <div class="col-md-5">
+                                        <label for="apellidos" class="form-label">Apellidos</label>
+                                        <input id="apellidos" name="apellidos" type="text" class="form-control"
+                                            required>
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <label for="edad" class="form-label">Edad</label>
+                                        <input id="edad" name="edad" type="number" class="form-control" required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="correo" class="form-label">Correo</label>
+                                        <input id="correo" name="correo" type="email" class="form-control" required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="telefono" class="form-label">Telefono</label>
+                                        <input id="telefono" name="telefono" type="number" class="form-control"
+                                            required>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <label for="servicio" class="form-label">Servicio de interes</label>
+                                        <select id="servicio" name="servicio" class="form-select" required>
+                                            <option value="">Selecciona una opción</option>
+                                            <option>Desarrollo web</option>
+                                            <option>Hosting</option>
+                                            <option>Diseño UX/UI</option>
+                                            <option>Marketing Digital</option>
+                                            <option>SEO</option>
+                                            <option>Refactorización de codigo</option>
+                                            <option>Desarrollo movil</option>
+                                            <option>Soporte Tecnico</option>
+                                            <option>Consultoría Tecnológica</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="ciudad" class="form-label">Ciudad</label>
+                                        <input id="ciudad" name="ciudad" type="text" class="form-control" required>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary w-100">Enviar formulario</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <p id="mensajeFormulario" class="mt-3 mb-0"></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
 
